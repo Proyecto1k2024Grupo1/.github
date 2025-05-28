@@ -19,7 +19,7 @@ import java.util.List;
  */
 public class ClienteDAO {
 
-    private static ClienteDAO instance;
+    private static ClienteDAO instance = ClienteDAO.getInstance();
     private Connection connection;
 
     // Queries definidas como constantes finales
